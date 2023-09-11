@@ -7,6 +7,7 @@ metadata = MetaData(naming_convention={
 
 db = SQLAlchemy(metadata=metadata)
 
+
 class Owner(db.Model):
     __tablename__ = 'owners'
 
